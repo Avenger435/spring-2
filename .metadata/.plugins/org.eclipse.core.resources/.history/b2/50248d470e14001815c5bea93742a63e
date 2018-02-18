@@ -1,0 +1,9 @@
+package com.banu.cloud.location.model;
+
+public class Location {
+
+	public Location(String cities, String geoid) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.banu.cloud.location.intercomm;
+
+public class LocationClient {
+
+}

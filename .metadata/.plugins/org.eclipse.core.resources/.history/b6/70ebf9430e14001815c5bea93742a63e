@@ -1,0 +1,5 @@
+package com.banu.cloud.location.model;
+
+public class Location {
+
+}

@@ -1,0 +1,15 @@
+package com.banu.cloud.edge;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+
+@SpringBootApplication
+@EnableZuulProxy
+@RestController
+public class GatewayService1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GatewayService1Application.class, args);
+	}
+}

@@ -1,0 +1,34 @@
+package com.banu.cloud.location.model;
+
+public class Location {
+
+	private String city;
+	private String geoid;
+	
+	public Location() {
+		
+	}
+	
+	public Location(String city, String geoid) {
+		super();
+		this.city = city;
+		this.geoid=geoid;
+	}
+	
+	public String getCity() {
+		return city;
+	}
+	public String setCity(String city) {
+		this.city= city;
+	}
+
+	public String getGeoid() {
+		return geoid;
+	}
+
+	public void setGeoid(String geoid) {
+		this.geoid = geoid;
+	}
+
+	
+}

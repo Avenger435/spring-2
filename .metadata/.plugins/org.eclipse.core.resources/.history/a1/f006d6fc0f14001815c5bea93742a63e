@@ -1,0 +1,28 @@
+package com.banu.cloud.location.api;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.banu.cloud.location.intercomm.LocationClient;
+import com.banu.cloud.location.model.Location;
+
+@RestController
+public class Api {
+	@Autowired
+	private LocationClient locationClient;
+	
+	protected Logger logger = Logger.getLogger(Api.class.getName());
+	
+	private List<Location> locations;
+	
+	public Api() {
+		
+		locations = new ArrayList<>();
+		locations.add(new Location("Singapore", "100"));
+		
+	}
+}

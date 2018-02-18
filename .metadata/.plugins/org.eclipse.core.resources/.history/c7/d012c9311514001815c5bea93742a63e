@@ -1,0 +1,7 @@
+package com.banu.cloud.location.exception;
+
+
+@Response
+public class LocationNotFoundException {
+
+}
